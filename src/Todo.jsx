@@ -7,7 +7,7 @@ const ToDo = (props)=>{
 
             <i onClick={() =>{
                 props.onselect(props.id)
-            }} className="fa-sharp fa-solid fa-xmark"> </i>
+            }} className="fa-sharp fa-solid fa-xmark cut"> </i>
             <li>{props.text}</li>
 
             </div>
