@@ -55,6 +55,10 @@ h1{
   outline: none;
   box-shadow: 5px 5px 15px -5px rgba(0 , 0 , 0 , 0.3);
 }
+.button:hover{
+  background-color: green;
+  transition: 0.5s;
+}
 ol{
   text-align: center;
   color: #9384D1;
@@ -77,4 +81,8 @@ ol li{
   min-width: 20px;
   font-size: 20px;
   margin-right: 10px;
+}
+.cut:hover{
+  background-color: red;
+  transition: 0.5s;
 }
